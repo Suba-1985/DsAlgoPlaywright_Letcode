@@ -23,7 +23,7 @@ auth.json
 e2e/
 screenshot1.png
 Cucumber_html_report
-features
+DSAlgoPlaywrightProjectDuplicate/features
 index.html
 assets/
 tests/

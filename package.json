@@ -6,7 +6,7 @@
   "scripts": {
     "testWithWebkitBrowserProfile": "npx cucumber-js --tags \"@arrays-links-navigations\" --profile profileWithWebkit --format summary",
     "pretest": "npx node src/helper/report/init.js ",
-    "test": "npx cross-env ENV=test cucumber-js  --tags \"@arrays-links-navigations\" --format progress-bar ||true",
+    "test": "npx cross-env ENV=%ENV% cucumber-js  --tags \"@arrays-links-navigations\" --format progress-bar ||true",
     "posttest": "npx node src/helper/report/multiple_cucumebr_report_config.js"
   },
   "keywords": [],
