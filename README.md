@@ -24,11 +24,16 @@ DSALGO is an educational application designed to help users practice data struct
 
 Before executing the project we have to install the following packages :
 
+**Before you begin, ensure you have the following installed:
+Node.js (version 12 or higher)
+npm (Node Package Manager)
 1. npm install multiple-cucumber-html-reporter --save -dev
 2. npm install detenv --save -dev
 3. npm I dotenv -D
 4. npm I cross-env -D 
 5. npm I fs --save
+6. npm i -D @Playwright/test
+7. npx Playwright install
 
 **Execution Instructions**
 To execute as follows:
