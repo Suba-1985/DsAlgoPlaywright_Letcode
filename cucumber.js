@@ -5,7 +5,7 @@ const common = {
   require: [
     'src/hooks/hooks.js',
     'src/test/step_definitions/*.spec.js'
-  ],
+  ],   
   forceExit: true
 }
 

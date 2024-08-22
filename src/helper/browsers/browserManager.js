@@ -12,14 +12,11 @@ const Options = {
   args: ['--start-maximized'], // Additional arguments, --Kiosk(will expand the screen to full size)
 };
 
-
-
-
  const invokeBrowser = async () => {
   dotenv;
-  const browserName = process.env.BROWSER;
+  const browserName = process.env.BROWSER;  
   let browser;
-
+   
   if (browserName === 'firefox') {
     browser = await playwright.firefox.launch(Options);
   } else if (browserName === 'chromium') {
