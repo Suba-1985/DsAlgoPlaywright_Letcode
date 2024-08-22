@@ -1,10 +1,10 @@
 
 const common = {
   defaultTimeout: 10000,
-  "paths": ["src/test/features/ArrayPage.feature"],
+  "paths": ["src/test/features/*.feature"],
   require: [
     'src/hooks/hooks.js',
-    'src/test/step_definitions/ArrayPageStep.spec.js'
+    'src/test/step_definitions/HomePageStep.spec.js'
   ],   
   forceExit: true
 }
