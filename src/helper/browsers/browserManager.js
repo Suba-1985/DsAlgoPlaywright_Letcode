@@ -16,7 +16,7 @@ const Options = {
   dotenv;
   const browserName = process.env.BROWSER;  
   let browser;
-   
+   console.log("Executing test in environemnt :" +process.env.Environment);
   if (browserName === 'firefox') {
     browser = await playwright.firefox.launch(Options);
   } else if (browserName === 'chromium') {

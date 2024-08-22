@@ -1,5 +1,5 @@
 const { Before, After, Status, AfterStep, BeforeAll, AfterAll } = require('@cucumber/cucumber');
-//const playwright = require('@playwright/test');
+const playwright = require('@playwright/test');
 const { POManager } = require('../../pageObjects/POManager');
 const { invokeBrowser } = require('../helper/browsers/browserManager');
 require('../helper/env/env');
