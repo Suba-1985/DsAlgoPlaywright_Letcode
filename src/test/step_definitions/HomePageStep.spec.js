@@ -1,5 +1,5 @@
 const{Given, When, Then} = require('@cucumber/cucumber');
-//const{expect} = require('@playwright/test');
+const{expect} = require('@playwright/test');
 const playwright = require('@playwright/test');
 const {POManager} = require('/../Users/subas/DSAlgoPlaywrightProjectDuplicate/pageObjects/POManager.js');
 const util = require('../../../utils/util.spec.js');
