@@ -4,7 +4,7 @@ const common = {
   "paths": ["src/test/features/ArrayPage.feature"],
   require: [
     'src/hooks/hooks.js',
-    'src/test/step_definitions/*.spec.js'
+    'src/test/step_definitions/ArrayPageStep.spec.js'
   ],   
   forceExit: true
 }
