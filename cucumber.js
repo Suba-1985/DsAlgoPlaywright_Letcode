@@ -4,7 +4,7 @@ const common = {
   "paths": ["src/test/features/*.feature"],
   require: [
     'src/hooks/hooks.js',
-    'src/test/step_definitions/HomePageStep.spec.js'
+    'src/test/step_definitions/*.spec.js'
   ],   
   forceExit: true
 }

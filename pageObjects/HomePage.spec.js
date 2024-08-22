@@ -1,4 +1,4 @@
-const config = require('../playwright.config');
+
 class HomePage{
 
     constructor(page,pommanager){
