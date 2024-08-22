@@ -14,7 +14,7 @@ loginauth.json
 .DS_Store
 /utils/EXCEL.js
 /utils/TestData.xlsx
-/ExcelReader.js
+
 utils/ExcelReader.js
 utils/tryExcel.spec.js
 /.vscode/
