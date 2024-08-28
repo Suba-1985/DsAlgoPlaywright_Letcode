@@ -1,10 +1,10 @@
-**DSALGO**
+#DSALGO**
 
-**Project Description**
+##Project Description**
 
 DSALGO is an educational application designed to help users practice data structures and algorithms. The project involved creating an automation framework from scratch, which significantly reduced test execution time by 60-70%.
 
-**Tools Used**
+##Tools Used**
 
 **Playwright**: For end-to-end testing
 
