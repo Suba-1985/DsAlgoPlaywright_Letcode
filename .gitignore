@@ -15,7 +15,7 @@ loginauth.json
 /utils/EXCEL.js
 /utils/TestData.xlsx
 
-utils/ExcelReader.js
+
 utils/tryExcel.spec.js
 /.vscode/
 /reports/
