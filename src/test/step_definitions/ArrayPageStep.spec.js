@@ -4,7 +4,8 @@ const config = require('../../../playwright.config.js');
 
 
 //Background
-When('User clicks get started for array after entering valid credential',{ timeout: 30000 }, async function () {    
+When('User clicks get started for array after entering valid credential',{ timeout: 30000 }, async function () {   
+   
     console.log("Using credentials:", process.env.USERNAME, process.env.PASSWORD);
     this.loginPage = await this.homePage.clickSignInLink();
     this.homePage = await this.loginPage.validLogin(process.env.USERNAME, process.env.PASSWORD);   
