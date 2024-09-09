@@ -37,10 +37,9 @@ npm (Node Package Manager)
 
 **Execution Instructions**
 To execute as follows:
-1.Set the environment variables:
-$env:ENV="dev"   
-2.Run the tests:
-npm test
+1.Set the environment variables and run the test:
+$env:ENV="prod" ; $env:TAGS="@arrays-links-navigations"; npm test   
+
 
 Additional Information
 1. Ensure you have all the required packages installed before running the tests
